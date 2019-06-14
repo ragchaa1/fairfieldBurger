@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <a href="dashboard.jsp">dashboard</a>
   </body>
 </html>
