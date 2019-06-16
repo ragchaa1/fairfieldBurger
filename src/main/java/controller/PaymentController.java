@@ -1,6 +1,7 @@
 package controller;
 
 
+import com.google.gson.Gson;
 import dao.DataDAO;
 import dao.PaymentDAO;
 
@@ -17,6 +18,7 @@ public class PaymentController extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     private PaymentDAO paymentDAO;
+    Gson mapper = new Gson();
 
     @Override
     public void init() throws ServletException {
