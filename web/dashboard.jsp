@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Ragchaa
+  Date: 6/13/2019
+  Time: 2:11 PM
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
          pageEncoding="ISO-8859-1"%><%--
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>--%>
@@ -6,10 +13,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Title</title>
-
     <script type="text/javascript"
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <script type="text/javascript" src="resources/js/script.js"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
