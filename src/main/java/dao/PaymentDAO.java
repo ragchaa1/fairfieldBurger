@@ -1,6 +1,7 @@
 package dao;
 
 import model.Payment;
+import org.json.JSONObject;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -21,28 +22,30 @@ public class PaymentDAO {
         return paymentList.stream().collect(Collectors.groupingBy(e -> e.getPaymentDate().getMonthValue(), Collectors.summingDouble(e -> e.getAmount())));
     }
 
-    public List getList(){
+    public List getList() {
         return paymentList;
     }
 
-    public Map getMap(){
-        Map<Integer, Long> map=new HashMap<>();
-        map.put(1,78L);
-        map.put(2,50L);
+    public Map getMap() {
+        Map<String, Long> map = new HashMap<>();
+        map.put("a", 78L);
+        map.put("b", 50L);
+        //JSONObject jsonObj = new JSONObject(map);
+
         return map;
     }
 
-    public List getIntList(){
+    public List getIntList() {
         List<String> list = Arrays.asList("1750", "1800", "1850", "1900", "1950", "1999", "2050");
         return list;
     }
 
-    public List getAsia(){
+    public List getAsia(Integer too) {
         //[502, 635, 809, 947, 1402, 3634, 5268]
-        List<Integer> list = Arrays.asList(502,635,809,947,1402,3634,5268);
-        return list;
+        if (too == 1)
+            return Arrays.asList(1502, 1635, 1809, 1947, 11402, 13634, 15268);
+        else
+           return Arrays.asList(502, 635, 809, 947, 1402, 3634, 5268);
+
     }
-
-
-
 }
