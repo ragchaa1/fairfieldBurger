@@ -23,4 +23,8 @@ public class PaymentDAO {
         return paymentList.stream().collect(Collectors.groupingBy(e -> e.getPaymentDate().getMonthValue(), Collectors.summingDouble(e -> e.getAmount())));
     }
 
+    public List getList(){
+        return paymentList;
+    }
+
 }

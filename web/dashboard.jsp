@@ -6,8 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-         pageEncoding="ISO-8859-1"%><%--
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>--%>
+         pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -30,14 +30,29 @@
 
     <div><span> 500 Income </span><span> Total Order </span><span>Canceled Order </span><span> Delivered Order </span></div>
 
-    <div id="container"></div>
-   <%-- <c:forEach items="${payments}" var="payment">
+
+
+    <table id="tbl_products">
+        <thead>
         <tr>
-            <td><c:out value="${payment.paymentId}" /></td>
-            <td><c:out value="${payment.paymentDate}" /></td>
-            <td><c:out value="${payment.amount}" /></td>
+            <th>paymentId</th>
+            <th>paymentDate</th>
+            <th>amount</th>
         </tr>
-    </c:forEach>--%>
+        </thead>
+        <tbody>
+        <c:forEach items="${payments}" var="payment">
+            <tr>
+                <td><c:out value="${payment.paymentId}" /></td>
+                <td><c:out value="${payment.paymentDate}" /></td>
+                <td><c:out value="${payment.amount}" /></td>
+            </tr>
+        </c:forEach>
+        </tbody>
+    </table>
+
+
+    <div id="container"></div>
 </section>
 
 <script language="JavaScript">
