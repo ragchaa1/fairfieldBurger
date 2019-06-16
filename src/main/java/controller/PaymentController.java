@@ -33,7 +33,6 @@ public class PaymentController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         logger.info("called");
-        log.info("called");
         //request.setAttribute("payments", paymentDAO.getPaymentByMonth(6));
         request.setAttribute("payments", paymentDAO.getList());
         request.setAttribute("map", paymentDAO.getMap());
