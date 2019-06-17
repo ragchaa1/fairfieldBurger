@@ -1,0 +1,59 @@
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+
+
+
+body {
+  font-family: RobotoCondensed, sans-serif;
+  background: white;
+}
+
+.main {
+  color: #5b5b5b;
+  padding-top: 100px;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+table {
+  border: 1px solid #e1e8e1;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+.container {
+  width: 80%;
+  border: 1px solid #e1e8e1;
+  background: #f7fff7;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  padding: 20px;
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+}
+table {
+  border: 1px solid #e1e8e1;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin-top:20px;
+}
+table tr:nth-child(odd) {
+  background-color: orange;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: darkorange;
+  color: white;
+}

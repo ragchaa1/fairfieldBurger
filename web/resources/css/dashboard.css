@@ -1,0 +1,25 @@
+.container {
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+    border: 2px solid red;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+.information {
+    display: inline-block;
+    background-color: purple;
+    height: 100px;
+    margin: 5px;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+}

@@ -1,0 +1,134 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css");
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+/* used colors
+green :  #4ecdc4;
+red:  #ff6b6b;
+white: #F7FFF7; 
+border: #e1e8e1;
+hover : #40A8A1
+*/
+html {
+  height: 100%;
+}
+body {
+  /* Remember to use the other versions for IE 10 and older browsers! */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  font-family: RobotoCondensed, sans-serif;
+  color: #5b5b5b;
+  background: white;
+}
+.container {
+  background: white;
+  border-radius: 5px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 20px 0;
+  margin: 0;
+}
+.login-item {
+  color: #ffff;
+  padding: 25px 25px 0;
+  margin: 20px 20px 0;
+  border-radius: 3px;
+}
+input {
+  border: 1px solid #e1e8e1;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+.user:before {
+  content: "\f007";
+  font: 14px fontawesome;
+  color: #5b5b5b;
+}
+
+.lock:before {
+  content: "\f023";
+  font: 14px fontawesome;
+  color: #5b5b5b;
+}
+.form input[type="password"],
+.form input[type="text"] {
+  /* .form input[type="submit"] { */
+  width: 100%;
+}
+.form-login label,
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="submit"] {
+  border-radius: 0.25rem;
+  padding: 1rem;
+  color: orange;
+}
+.form-login .lock,
+.form-login .user {
+  background-color: orange;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.form-login input[type="text"],
+.form-login input[type="password"] {
+  background-color: #ffffff;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.form-login input[type="text"]:focus,
+.form-login input[type="text"]:hover,
+.form-login input[type="password"]:focus,
+.form-login input[type="password"]:hover {
+  background-color: #eeeeee;
+}
+.form-login input[type="submit"] {
+  background-color: orange;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-login input[type="submit"]:focus,
+.form-login input[type="submit"]:hover {
+  background-color: #40a8a1;
+}
+.form-field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.text--center {
+  text-align: center;
+}
+.checkbox {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  cursor: pointer;
+}

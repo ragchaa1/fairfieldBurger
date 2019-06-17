@@ -1,0 +1,67 @@
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding:0;
+  font-size: 100%;
+  line-height: 1;
+}
+body {
+  background-color: #ebebeb;
+  font-family: RobotoCondensed, sans-serif;
+}
+.main {
+  padding-top: 100px;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+.burger {
+  border-radius: 10px;
+  box-sizing: border-box;
+  /*background-color: white;*/
+  /*border: 1px solid #ccc;*/
+  overflow: hidden;
+  /*width: 45%;*/
+  float: left;
+  margin: 2.5%;
+  padding: 2%;
+}
+.col-left {
+  width: 70%;
+  float: right;
+}
+.col-right {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.col-right img {
+  padding: 1%;
+  margin: 1%;
+  border-radius: 10px;
+  width: 100%;
+}
+.col-right p {
+  margin-top: 8%;
+}
+
+.control-inside {
+  margin: 2%;
+  width: 30%;
+}
+
+.addToCart{
+  /*width:50%;*/
+  border-radius:5px;
+  margin:auto;
+  padding: 3px 20px;
+}
+.addToCart:hover{
+  opacity: 0.8;
+}
+
+
