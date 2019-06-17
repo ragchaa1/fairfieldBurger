@@ -26,18 +26,5 @@ public class TestController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
 
-
-      /*  logger.info("called");
-        log.info("called");
-        //request.setAttribute("payments", paymentDAO.getPaymentByMonth(6));
-        request.setAttribute("payments", paymentDAO.getList());
-        request.setAttribute("map", paymentDAO.getMap());
-        request.setAttribute("yearList", paymentDAO.getIntList());
-
-        request.setAttribute("asia", paymentDAO.getAsia(1));
-
-
-        RequestDispatcher view = request.getRequestDispatcher("dashboard.jsp");
-        view.forward(request, response);*/
     }
 }

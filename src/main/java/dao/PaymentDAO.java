@@ -1,12 +1,10 @@
 package dao;
 
+import com.google.gson.Gson;
 import model.Payment;
-import org.json.JSONObject;
 
 import java.time.LocalDate;
-import java.time.Month;
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class PaymentDAO {
@@ -40,12 +38,25 @@ public class PaymentDAO {
         return list;
     }
 
-    public List getAsia(Integer too) {
-        //[502, 635, 809, 947, 1402, 3634, 5268]
-        if (too == 1)
-            return Arrays.asList(1502, 1635, 1809, 1947, 11402, 13634, 15268);
-        else
-           return Arrays.asList(502, 635, 809, 947, 1402, 3634, 5268);
+    private Gson gson = new Gson();
 
+    public String getState(Integer too) {
+        System.out.println("too = " + too);
+        if (too == 1) {
+            List<Integer> integers = Arrays.asList(1502, 1635, 1809, 1947, 11402, 13634, 15268);
+            String s = this.gson.toJson(integers);
+            return s;
+
+        } else {
+            List<Integer> integers = Arrays.asList(502, 635, 809, 947, 1402, 3634, 5268);
+            String s = this.gson.toJson(integers);
+            return s;
+        }
+    }
+
+    public Map<String, Long> getStateStat() {
+        Map<String, Long> stateMap = new HashMap<>();
+        stateMap.put("us-ma", 10L);
+        return stateMap;
     }
 }

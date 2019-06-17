@@ -1,6 +1,5 @@
 package controller;
 
-
 import dao.OrderDAO;
 import dao.PaymentDAO;
 import lombok.extern.java.Log;
@@ -14,9 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.logging.Logger;
 
-@WebServlet({"/payment"})
-@Log
-public class PaymentController extends HttpServlet {
+@WebServlet({"/chart"})
+public class ChartController extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     private static Logger logger = Logger.getLogger("PaymentController");
@@ -34,16 +32,11 @@ public class PaymentController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        logger.info("called");
-        log.info("called");
 
         String id = request.getParameter("id");
-
         Integer integer=new Integer(1);
-
         if (id != null)
             integer = Integer.valueOf(id);
-
         System.out.println("id = " + id);
 
         //request.setAttribute("payments", paymentDAO.getPaymentByMonth(6));
@@ -54,10 +47,9 @@ public class PaymentController extends HttpServlet {
         request.setAttribute("surveyMap", orderDAO.getStateStat());
         request.setAttribute("totalOrder",orderDAO.getTotalOrder());
         request.setAttribute("totalIncome",orderDAO.getTotalIncome());
-
 /*
         response.setHeader("");*/
-        RequestDispatcher view = request.getRequestDispatcher("dashboard.jsp");
+        RequestDispatcher view = request.getRequestDispatcher("chart.jsp");
         view.forward(request, response);
     }
 
