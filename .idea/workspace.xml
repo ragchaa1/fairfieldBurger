@@ -7,34 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7f558ac-94a7-41d9-85c6-943e6d5aeb4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ChartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BurgerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/placeOrder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/images/burger.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/images/cheeseburger.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/images/logo_burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/pizza_Bacon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/pizza_Cheese_Lovers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/pizza_Chicken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/pizza_Meat_Lovers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/pizza_Pepperoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/pizza_Supreme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/white-cart.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DataController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DataDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/PaymentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/PaymentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/DataModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/fairfieldBurger/fairfieldBurger/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/fairfieldBurger/fairfieldBurger/pom.xml" beforeDir="false" />
@@ -60,14 +47,6 @@
       <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/success.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/transaction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/chart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/transaction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/orders.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/placeOrder.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-654">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="162">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -194,7 +182,6 @@
         <option value="$PROJECT_DIR$/web/orders.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/model/Order.java" />
         <option value="$PROJECT_DIR$/web/resources/css/placeOrder.css" />
-        <option value="$PROJECT_DIR$/web/placeOrder.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/model/Burger.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/web/resources/js/script.js" />
@@ -209,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Size.java" />
         <option value="$PROJECT_DIR$/web/resources/js/order.js" />
         <option value="$PROJECT_DIR$/web/resources/js/index.js" />
+        <option value="$PROJECT_DIR$/web/placeOrder.jsp" />
       </list>
     </option>
   </component>
@@ -247,7 +235,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fairfieldBurger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairfieldBurger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairfieldBurger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairfieldBurger" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -377,7 +380,7 @@
       <workItem from="1560617156795" duration="17924000" />
       <workItem from="1560664279126" duration="1633000" />
       <workItem from="1560704621209" duration="26066000" />
-      <workItem from="1560783609802" duration="18762000" />
+      <workItem from="1560783609802" duration="19547000" />
     </task>
     <task id="LOCAL-00001" summary="jsp file create">
       <created>1560453144552</created>
@@ -442,11 +445,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560658157252</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="jsp file create">
+      <created>1560815207901</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560815207902</updated>
+    </task>
+    <task id="LOCAL-00011" summary="jsp file create">
+      <created>1560815799355</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560815799355</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75956000" />
+    <option name="totallyTimeSpent" value="76741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -783,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -823,8 +833,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/placeOrder.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="162">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
