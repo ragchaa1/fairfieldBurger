@@ -18,6 +18,7 @@
           src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+
 <div class="header">
   <div class="headerContent">
     <div class="menuItem leftMenu">
@@ -51,6 +52,8 @@
     </div>
   </div>
 </div>
+
+
 <div class="main">
   <c:forEach items="${burgers}" var="burger">
     <div class="burger" burgerId="${burger.id}">

@@ -6,7 +6,34 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7f558ac-94a7-41d9-85c6-943e6d5aeb4e" name="Default Changelist" comment="" />
+    <list default="true" id="c7f558ac-94a7-41d9-85c6-943e6d5aeb4e" name="Default Changelist" comment="jsp file create">
+      <change afterPath="$PROJECT_DIR$/web/burger.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/css/hfoods.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/css/hindex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/ChickenNuggets-700x360_CR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/CocaCola.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/DietCoke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/FrenchFries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/IcedTea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/Lemonade.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/Sprite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/Water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/chickenTenders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/crispyChicken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/doubleBurger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/doubleBurger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/footer-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/grilledChicken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/homepage1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/homepage2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/onionRings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/steakBurger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/images/veggieBurger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/js/horder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/BurgerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/BurgerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +47,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/resources/test.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/BurgerDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,23 +67,13 @@
         <option value="JavaScript File" />
         <option value="Enum" />
         <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>surveyMap</find>
-      <find>us-ca</find>
-      <find>basic</find>
-      <find>price</find>
-      <find>$.</find>
-      <find>Total order</find>
-      <find>/char</find>
-      <find>c=</find>
-      <find>c:</find>
-      <find>totalOrder</find>
       <find>/paymen</find>
       <find>totalIncome</find>
       <find>c</find>
@@ -83,12 +94,22 @@
       <find>displayCartItems</find>
       <find>order.js</find>
       <find>jack</find>
+      <find>@web</find>
+      <find>context</find>
+      <find>.css</find>
+      <find>Chicken Tenders</find>
+      <find>Cheeseburger</find>
+      <find>Sides</find>
+      <find>index.jsp</find>
+      <find>hfoods</find>
+      <find>img</find>
+      <find>add</find>
     </findStrings>
     <replaceStrings>
       <replace>111</replace>
       <replace>'111'</replace>
-      <replace>burgers</replace>
       <replace>burger</replace>
+      <replace>burgers</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Ragchaa\IdeaProjects\fairfieldBurger\web\resources\images</dir>
@@ -116,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/LogoutController.java" />
         <option value="$PROJECT_DIR$/web/setorders.jsp" />
         <option value="$PROJECT_DIR$/web/setOrder.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/resources/test.html" />
         <option value="$PROJECT_DIR$/web/resources/css/header.css" />
         <option value="$PROJECT_DIR$/web/resources/css/login.css" />
@@ -126,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/CartController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/web/resources/css/order.css" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/BurgerDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/PaymentDAO.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/orders.jsp" />
@@ -141,12 +160,16 @@
         <option value="$PROJECT_DIR$/web/dashboard.jsp" />
         <option value="$PROJECT_DIR$/web/chart.jsp" />
         <option value="$PROJECT_DIR$/web/resources/css/index.css" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/model/Size.java" />
         <option value="$PROJECT_DIR$/web/resources/js/order.js" />
         <option value="$PROJECT_DIR$/web/resources/js/index.js" />
         <option value="$PROJECT_DIR$/web/placeOrder.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/web/resources/css/hindex.css" />
+        <option value="$PROJECT_DIR$/web/burger.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/BurgerDAO.java" />
       </list>
     </option>
   </component>
@@ -195,6 +218,48 @@
             <path>
               <item name="fairfieldBurger" type="b2602c69:ProjectViewProjectNode" />
               <item name="fairfieldBurger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairfieldBurger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairfieldBurger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairfieldBurger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairfieldBurger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairfieldBurger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairfieldBurger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairfieldBurger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairfieldBurger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairfieldBurger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairfieldBurger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fairfieldBurger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fairfieldBurger" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,9 +302,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ragchaa\IdeaProjects\fairfieldBurger\web\resources\images" />
+      <recent name="C:\Users\Ragchaa\IdeaProjects\fairfieldBurger\web\resources\css" />
+      <recent name="C:\Users\Ragchaa\IdeaProjects\fairfieldBurger\web\resources\js" />
       <recent name="C:\Users\Ragchaa\IdeaProjects\fairfieldBurger\web\resources" />
       <recent name="C:\Users\Ragchaa\IdeaProjects\fairfieldBurger\web" />
-      <recent name="C:\Users\Ragchaa\IdeaProjects\fairfieldBurger\web\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,7 +409,7 @@
       <workItem from="1560617156795" duration="17924000" />
       <workItem from="1560664279126" duration="1633000" />
       <workItem from="1560704621209" duration="26066000" />
-      <workItem from="1560783609802" duration="20157000" />
+      <workItem from="1560783609802" duration="24408000" />
     </task>
     <task id="LOCAL-00001" summary="jsp file create">
       <created>1560453144552</created>
@@ -450,11 +516,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560816535618</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="jsp file create">
+      <created>1560816859395</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560816859395</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77351000" />
+    <option name="totallyTimeSpent" value="81602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -470,7 +543,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30769232" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41080198" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4304419" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,7 +559,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.23676248" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.23676248" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -506,40 +579,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/logo.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/logo2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/logo3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/logo4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/pizza_Bacon.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/pizza_Cheese_Lovers.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/pizza_Chicken.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/pizza_Meat_Lovers.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/images/pizza_Pepperoni.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -588,16 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/BurgerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,13 +693,6 @@
             <element signature="e#1290#1291#0" expanded="true" />
             <element signature="e#1335#1336#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Burger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -760,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/chart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -781,27 +796,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -822,17 +820,108 @@
     <entry file="file://$PROJECT_DIR$/web/resources/images/cart.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/web/resources/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="328">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/test.html">
+    <entry file="file://$PROJECT_DIR$/web/chart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="-287">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/images/burger.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/images/cheeseburger.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/images/doubleBurger.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/images/doubleBurger.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/images/FrenchFries.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/css/hindex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/css/hfoods.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/js/horder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/burger.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="86" column="99" selection-start-line="86" selection-start-column="99" selection-end-line="86" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Burger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/BurgerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
