@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7f558ac-94a7-41d9-85c6-943e6d5aeb4e" name="Default Changelist" comment="">
+    <list default="true" id="c7f558ac-94a7-41d9-85c6-943e6d5aeb4e" name="Default Changelist" comment="jsp file create">
       <change afterPath="$PROJECT_DIR$/web/resources/images/cart.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/resources/images/cart.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/resources/images/logo.jpeg" afterDir="false" />
@@ -21,32 +21,32 @@
       <change afterPath="$PROJECT_DIR$/web/resources/images/pizza_Pepperoni.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/resources/images/pizza_Supreme.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/resources/images/white-cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/fairfieldBurger/fairfieldBurger/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/fairfieldBurger/fairfieldBurger/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/DataController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/DataDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/PaymentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/PaymentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/DataModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/controller/DataController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/dao/DataDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/dao/PaymentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/dao/PaymentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/model/DataModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/detail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/transaction.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/dao/PaymentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/model/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/classes/service/DataService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/lib/commons-digester-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/dashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/img/.idea/img.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/img/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/img/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/img/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/img/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/img/burger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fairfieldBurger-1.0-SNAPSHOT/login.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,29 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/resources/js/order.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/placeOrder.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="221">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -380,7 +362,7 @@
       <workItem from="1560617156795" duration="17924000" />
       <workItem from="1560664279126" duration="1633000" />
       <workItem from="1560704621209" duration="26066000" />
-      <workItem from="1560783609802" duration="19547000" />
+      <workItem from="1560783609802" duration="19836000" />
     </task>
     <task id="LOCAL-00001" summary="jsp file create">
       <created>1560453144552</created>
@@ -459,17 +441,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560815799355</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="jsp file create">
+      <created>1560816102471</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560816102471</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76741000" />
+    <option name="totallyTimeSpent" value="77030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22617246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22617246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -479,7 +468,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30769232" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41080198" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41080198" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,7 +484,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.23676248" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.23676248" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -824,6 +813,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/placeOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/js/order.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -831,17 +827,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/placeOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="221">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
