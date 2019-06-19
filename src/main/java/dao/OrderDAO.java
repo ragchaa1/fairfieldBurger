@@ -1,12 +1,14 @@
 package dao;
 
 import model.Order;
+import model.Size;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class OrderDAO {
     private static Map<String, List<Order>> map = new HashMap<String, List<Order>>() {{
@@ -40,17 +42,25 @@ public class OrderDAO {
         System.out.println("stream inside orders = " + allOrder.size());
         Map<String, Long> collect = allOrder.stream().collect(Collectors.groupingBy(e -> e.getStateCode(), Collectors.counting()));
         System.out.println("collect.size() = " + collect.size());
-        v = v + allOrder.get(0).getCart().calculateTotalPrice();
+        if (allOrder.size() > 0 && allOrder != null)
+            v = v + allOrder.get(0).getCart().calculateTotalPrice();
+
         System.out.println("vvvvvvvvvvvvvvvvvv = " + v);
         return collect;
     }
 
-    public Integer getTotalOrder(){
+    public Integer getTotalOrder() {
         return allOrder.size();
     }
 
-    public Double getTotalIncome(){
+    public Double getTotalIncome() {
         return v;
+    }
+
+    public void getBarChart(){
+        // (list) -> list.stream().collect(Collectors.groupingBy(User::getSex, Collectors.counting()));
+       // Map<Stream<Size>, Long> collect = allOrder.stream().collect(Collectors.groupingBy(e -> e.getCart().getItems().stream().collect(Collectors.mapping(s->s.getSize())), Collectors.counting()));
+
     }
 
 }

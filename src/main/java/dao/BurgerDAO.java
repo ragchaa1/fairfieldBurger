@@ -26,7 +26,11 @@ public class BurgerDAO {
         put(6, new Burger(6,"Supreme", 11.0, "resources/images/burger_Supreme.jpg"));*/
     }};
 
-    private BurgerDAO() {
+    public BurgerDAO() {
+    }
+
+    public Integer getSize() {
+        return burgerMap.size();
     }
 
     public static List<Burger> getAllBurgers() {

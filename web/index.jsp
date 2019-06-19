@@ -46,6 +46,16 @@
       </div>
 
       <div class="menuItem">
+        <a href="/chart">Chart</a>
+      </div>
+
+
+      <div class="menuItem">
+        <a href="/bar">Bar</a>
+      </div>
+
+
+      <div class="menuItem">
         <a href ="/placeOrder.jsp">Cart</a>
         [${cart.items.size()}]
       </div>

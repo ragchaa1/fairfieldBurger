@@ -10,7 +10,14 @@ public class UserDAO {
         put("ragchaa", new User("ragchaa", "ragchaa", "utopia park 4a"));
         put("admin", new User("admin", "admin", "Admin address"));
     }};
-    private UserDAO() { }
+
+    public Integer getSize(){
+        return map.size();
+    }
+
+    public UserDAO() { }
+
+
     public static User createUser(String username, String password, String address) {
         User user =  new User(username, password, address);
         map.put(username, user);

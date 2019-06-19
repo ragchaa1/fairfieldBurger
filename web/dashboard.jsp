@@ -52,6 +52,9 @@
                 <a href="/chart">Chart</a>
             </div>
             <div class="menuItem">
+                <a href="/bar">Bar</a>
+            </div>
+            <div class="menuItem">
                 <a href="/payment">Dashboard</a>
             </div>
 
@@ -77,12 +80,12 @@
         </span>
         <span class="information">
             <br>
-            235<br>
+             <c:out value="${totalUser}"/><br>
             Total Users
         </span>
         <span class="information">
             <br>
-            235<br>
+             <c:out value="${totalProduct}"/><br>
             Total Product
         </span>
     </section>
@@ -139,10 +142,10 @@
                 }
             },
             series: [{
-                name: 'Fairfield',
+                name: 'Illinois',
                 data: ${state}
             }, {
-                name: 'Ottumwa',
+                name: 'Iowa',
                 data: [106, 107, 111, 133, 221, 767, 1766]
             }]
         });

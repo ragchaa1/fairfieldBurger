@@ -1,7 +1,9 @@
 package controller;
 
+import dao.BurgerDAO;
 import dao.OrderDAO;
 import dao.PaymentDAO;
+import dao.UserDAO;
 import lombok.extern.java.Log;
 
 import javax.servlet.RequestDispatcher;
@@ -21,11 +23,15 @@ public class ChartController extends HttpServlet {
 
     private PaymentDAO paymentDAO;
     private OrderDAO orderDAO;
+    private BurgerDAO burgerDAO;
+    private UserDAO userDAO;
 
     @Override
     public void init() throws ServletException {
         paymentDAO = new PaymentDAO();
         orderDAO = new OrderDAO();
+        burgerDAO=new BurgerDAO();
+        userDAO=new UserDAO();
     }
 
 
@@ -40,15 +46,15 @@ public class ChartController extends HttpServlet {
         System.out.println("id = " + id);
 
         //request.setAttribute("payments", paymentDAO.getPaymentByMonth(6));
-        request.setAttribute("payments", paymentDAO.getList());
-        request.setAttribute("map", paymentDAO.getMap());
-        request.setAttribute("yearList", paymentDAO.getIntList());
+
         request.setAttribute("state", paymentDAO.getState(integer));
-        request.setAttribute("surveyMap", orderDAO.getStateStat());
         request.setAttribute("totalOrder",orderDAO.getTotalOrder());
         request.setAttribute("totalIncome",orderDAO.getTotalIncome());
-/*
-        response.setHeader("");*/
+        request.setAttribute("totalProduct",burgerDAO.getSize());
+        request.setAttribute("totalUser",userDAO.getSize());
+
+        /*response.setHeader("");*/
+
         RequestDispatcher view = request.getRequestDispatcher("chart.jsp");
         view.forward(request, response);
     }
